@@ -1,0 +1,100 @@
+ body {
+    font-family: 'Playfair Display', serif;   
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(bb1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: rgb(217, 217, 241);
+  }
+  
+  .countdown-container {
+    text-align: center;
+  }
+ 
+.col{
+   display: flex;
+   margin-top: 20px; 
+}
+.col div{
+       width: 230px;
+       text-align: center;
+}
+input{
+    width: 50%;
+    height: 50px;
+     border-color: transparent; 
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  body {
+      font-size: 20px;
+  }
+  .col div {
+      width: 200px;
+  }
+  input {
+      width: 60%;
+      font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+      font-size: 18px;
+  }
+  .col {
+      flex-direction: column;
+      align-items: center;
+  }
+  .col div {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  input {
+      width: 70%;
+      font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+  input {
+      width: 80%;
+      font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+      font-size: 14px;
+  }
+  input {
+      width: 90%;
+      font-size: 22px;
+  }
+}
+
+/* 
+font-family: 'Roboto Slab', serif;
+font-family: 'PT Sans', sans-serif; */
+  
+  
+  
